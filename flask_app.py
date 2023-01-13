@@ -15,7 +15,7 @@ class hello_world():
     def m(t):
         movie_name= t
         
-        movies = pd.read_csv('./movies.csv')
+        movies = pd.read_csv('https://raw.githubusercontent.com/Psudhanshu02/flask_server/main/movies.csv')
 
         selective_columns = ['genres', 'keywords','tagline', 'cast', 'director']
 
